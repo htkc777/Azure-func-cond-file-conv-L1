@@ -1,0 +1,6 @@
+{
+    "ip_blob_name":"XML-Data-Set.xml",
+    "op_blob_name":"csv_data.csv",
+    "source_container_name":"input-data",
+    "dest_container_name":"output-data"
+}

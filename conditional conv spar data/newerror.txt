@@ -1,0 +1,27 @@
+HTTP response code
+500 Internal Server Error
+HTTP response content
+An error occurred: Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:df338ca0-301e-000f-567c-039692000000
+Time:2023-10-20T17:43:33.4581008Z
+ErrorCode:AuthenticationFailed
+authenticationerrordetail:The MAC signature found in the HTTP request 'vZfoSs2yGTpBS29i2MUUPyT4rv+P5Ep89TJ3+k9BTDA=' is not the same as any computed signature. Server used following string to sign: 'GET
+
+
+
+
+
+
+
+
+
+
+
+x-ms-client-request-id:30688b02-6f70-11ee-9084-00155d06e74d
+x-ms-date:Fri, 20 Oct 2023 17:43:33 GMT
+x-ms-range:bytes=0-33554431
+x-ms-version:2023-08-03
+/functiondata537/input-data/XML-Data-Set.xml'.
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:df338ca0-301e-000f-567c-039692000000
+Time:2023-10-20T17:43:33.4581008Z</Message><AuthenticationErrorDetail>The MAC signature found in the HTTP request 'vZfoSs2yGTpBS29i2MUUPyT4rv+P5Ep89TJ3+k9BTDA=' is not the same as any computed signature. Server used following string to sign: 'GET
